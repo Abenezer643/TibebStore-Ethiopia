@@ -1,0 +1,17 @@
+﻿node_modules/
+.next/
+coverage/
+
+# Environment variables and secrets
+.env*
+!.env.example
+!.env.local.example
+
+# User uploads
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Logs and generated files
+*.log
+.DS_Store
+tsconfig.tsbuildinfo
